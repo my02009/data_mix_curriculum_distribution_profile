@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "my02009-promptlead_jd338"
+name = "my02009-data_mix_curriculum_distribution_profile"
 version = "0.1.0"
 description = "抽取数值做分布分析，用中位数绝对偏差识别Prompt 工程负责人·训练数据配比与课程学习上的离群点"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://my02009.github.io"
-Repository = "https://github.com/my02009/promptlead_jd338"
-Issues = "https://github.com/my02009/promptlead_jd338/issues"
+Repository = "https://github.com/my02009/data_mix_curriculum_distribution_profile"
+Issues = "https://github.com/my02009/data_mix_curriculum_distribution_profile/issues"
 
 [project.scripts]
-promptlead_jd338 = "promptlead_jd338:main"
+data_mix_curriculum_distribution_profile = "data_mix_curriculum_distribution_profile:main"
 
 [tool.setuptools]
-py-modules = ["promptlead_jd338"]
+py-modules = ["data_mix_curriculum_distribution_profile"]
